@@ -1,0 +1,63 @@
+<html>
+
+<body>
+	<script type="text/javascript">
+		function forLoop() {
+			for (i = 1; i <= 5; i++) {
+				document.write(i + "<br/>")
+			}
+		}
+
+		function whileLoop() {
+			var i = 1;
+			while (i <= 5) {
+				document.write(i + "<br/>");
+				i++;
+			}
+		}
+
+		function doWhileLoop() {
+			var i = 1;
+			do {
+				document.write(i + "<br/>");
+				i++;
+			} while (i <= 5);
+		}
+
+		function forInLoop() {
+			const emp = { id: 1001, name: "Amit", sal: 24000, age: 34, location: "Delhi" };
+			document.write(emp.id);
+			document.write("<br>");
+			document.write(emp.name);
+			document.write("<br>");
+			document.write(emp.sal);
+			document.write("<br>");
+			document.write(emp.age);
+			document.write("<br>");
+			document.write(emp.location);
+			document.write("<br>");
+			document.write("<br>");
+			document.write("<br>");
+			document.write("Displaying emp object using for..in.. loop");
+			document.write("<br>");
+			for (let i in emp) {
+				document.write(emp[i] + "<br>");
+			}
+		}
+	</script>
+
+	<form name="form1">
+		<input type="button" onclick="forLoop()" value="for" />
+		<br>
+		<input type="button" onclick="whileLoop()" value="while" />
+		<br>
+		<input type="button" onclick="doWhileLoop()" value="dowhile" />
+		<br>
+		<input type="button" onclick="forInLoop()" value="for in" />
+		<br>
+
+	</form>
+
+</body>
+
+</html>

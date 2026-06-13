@@ -1,0 +1,75 @@
+<html>
+<body>
+
+<script>
+function getSingleSelectValue() {
+	var res="";
+  var s = document.getElementById("lang");
+res=s.options[s.selectedIndex].text;
+  document.write(res);
+}
+
+
+function getMultipleSelectValue() {
+	var res="";
+  var s = document.getElementById("cities");
+for(i=0;i<s.selectedOptions.length; i++) {
+  if(s.selectedOptions[i].text=="New Delhi")
+	{
+		res=res+s.selectedOptions[i].text;
+	}
+if(s.selectedOptions[i].text=="Indore")
+	{
+		res=res+s.selectedOptions[i].text;
+	}
+if(s.selectedOptions[i].text=="Jaipur")
+	{
+		res=res+s.selectedOptions[i].text;
+	}
+if(s.selectedOptions[i].text=="Jodhpur")
+	{
+		res=res+s.selectedOptions[i].text;
+	}
+}
+  document.write(res);
+}
+
+</script>
+
+<div>
+ <h2>Example of selecting single option</h2>
+<form action="#">
+      <label for="lang">Language</label>
+      <select name="languages" id="lang">
+        <option value="javascript">JavaScript</option>
+        <option value="php">PHP</option>
+        <option value="java">Java</option>
+        <option value="python">Python</option>
+        <option value="c#">C#</option>
+        <option value="C++">C++</option>
+      </select>
+      <input type="button" id="singleButton" value="Display" onclick="getSingleSelectValue()"/>
+</form>
+</div>
+
+<div>
+ <h2>Example of selecting multiple options</h2>
+ <form>
+    <label>Choose your Favorite city in India</label>
+    <select id="cities" size=4 multiple>
+        <option>New Delhi</option>
+        <option>Indore</option>
+        <option>Jaipur</option>
+        <option>Jodhpur</option>
+        <option>Chandigarh</option>
+        <option>Mumbai</option>
+        <option>Bengaluru</option>
+        <option>Lucknow</option>
+        <option>Amritsar</option>
+  </select>
+<input type="button" id="result" value="Select City" onclick="getMultipleSelectValue()"/>
+ </form>
+</div>
+
+</body>
+</html>

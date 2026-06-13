@@ -1,0 +1,28 @@
+<html>
+<body>
+<script type="text/javascript">
+document.write("Feet To Inches Program");
+document.write("<br>");
+const operator = prompt('Enter operation: 1 for Feet to Inches, 2 for Inches to Feet');
+
+let result;
+
+if (operator == 1)
+{
+	const feet = parseFloat(prompt('Enter Feet Value: '));
+	result = 12*feet;
+	document.write("Inches Is "+ result);
+}
+else if (operator == 2)
+{
+	const inches = parseFloat(prompt('Enter Inches Value: '));
+	result = inches/12;
+	document.write("Feet Is "+ result);
+}
+else
+{
+	document.write("Wrong Choice");
+}
+</script>
+</body>
+</html>
