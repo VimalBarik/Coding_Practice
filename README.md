@@ -1,8 +1,8 @@
 # Coding Practice
 
 A collection of practice files I've written since 2021, covering everything 
-from programming fundamentals to machine learning. These are not projects — 
-they are notes, experiments, and exercises written while learning.
+from programming fundamentals to machine learning. These are not projects, 
+they are notes, experiments and exercises written while learning.
 
 ## Contents
 
