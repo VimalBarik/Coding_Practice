@@ -1,0 +1,6 @@
+pandas
+nltk
+textblob
+keybert
+scikit-learn
+sentence-transformers  # required by keybert 

@@ -1,0 +1,140 @@
+
+🎯 PRODUCT-SPECIFIC ISSUES
+--------------------------------------------------
+RoboChef Blender:
+  • Main issue: Late Delivery (23 tickets)
+  • Sentiment: -0.091
+  • Common words: blender, day, facing, fails, got
+
+Vision LED TV:
+  • Main issue: Product Defect (20 tickets)
+  • Sentiment: 0.018
+  • Common words: contacted, day, got, issue, led
+
+PhotoSnap Cam:
+  • Main issue: Billing Problem (18 tickets)
+  • Sentiment: -0.075
+  • Common words: cam, day, got, help, issue
+
+FitRun Treadmill:
+  • Main issue: General Inquiry (25 tickets)
+  • Sentiment: -0.095
+  • Common words: account, available, day, fitrun, got
+
+PowerMax Battery:
+  • Main issue: Installation Issue (23 tickets)
+  • Sentiment: -0.096
+  • Common words: battery, contacted, day, facing, got
+
+EcoBreeze AC:
+  • Main issue: Installation Issue (20 tickets)
+  • Sentiment: -0.102
+  • Common words: ac, day, ecobreeze, fails, got
+
+ProTab X1:
+  • Main issue: Account Access (19 tickets)
+  • Sentiment: -0.090
+  • Common words: account, got, help, issue, log
+
+SmartWatch V2:
+  • Main issue: Billing Problem (18 tickets)
+  • Sentiment: -0.060
+  • Common words: april, contacted, day, got, issue
+
+SoundWave 300:
+  • Main issue: Account Access (19 tickets)
+  • Sentiment: -0.095
+  • Common words: 300, account, day, got, help
+
+UltraClean Vacuum:
+  • Main issue: Billing Problem (17 tickets)
+  • Sentiment: -0.103
+  • Common words: facing, fails, got, installation, issue
+
+
+🎨 COLOR PREFERENCES (General Inquiries)
+--------------------------------------------------
+UltraClean Vacuum:
+  • black: 3
+  • red: 3
+  • white: 2
+  • blue: 1
+
+PhotoSnap Cam:
+  • red: 6
+  • black: 5
+  • white: 2
+
+FitRun Treadmill:
+  • black: 5
+  • white: 5
+  • blue: 5
+  • red: 3
+
+RoboChef Blender:
+  • white: 5
+  • blue: 4
+  • black: 3
+  • red: 2
+
+ProTab X1:
+  • white: 5
+  • blue: 3
+  • red: 2
+  • black: 1
+
+Vision LED TV:
+  • red: 6
+  • white: 4
+  • blue: 3
+  • black: 1
+
+SoundWave 300:
+  • black: 3
+  • white: 2
+  • red: 1
+  • blue: 1
+
+SmartWatch V2:
+  • red: 5
+  • black: 4
+  • white: 4
+  • blue: 2
+
+PowerMax Battery:
+  • blue: 4
+  • red: 3
+  • black: 2
+  • white: 1
+
+EcoBreeze AC:
+  • black: 4
+  • white: 3
+  • red: 3
+  • blue: 2
+
+
+😊 SENTIMENT ANALYSIS
+--------------------------------------------------
+Average Sentiment by Issue Type:
+  • Installation Issue: -0.354
+  • Product Defect: -0.277
+  • Wrong Item: -0.028
+  • Billing Problem: -0.011
+  • General Inquiry: 0.019
+  • Late Delivery: 0.022
+  • Account Access: 0.089
+
+
+⚡ URGENCY DISTRIBUTION
+--------------------------------------------------
+  • Low: 345
+  • High: 330
+  • Medium: 325
+
+Products with Most Urgent Tickets:
+  • EcoBreeze AC: 39
+  • RoboChef Blender: 38
+  • ProTab X1: 38
+  • PhotoSnap Cam: 35
+  • FitRun Treadmill: 34
