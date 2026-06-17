@@ -1,10 +1,10 @@
-# 📦 E-Commerce Shipping Delivery Prediction
+#  E-Commerce Shipping Delivery Prediction
 
 A binary classification project that predicts whether an e-commerce shipment will reach the customer **on time or not**, using a deep learning model built with TensorFlow/Keras.
 
 ---
 
-## 🧩 Problem Statement
+##  Problem Statement
 
 E-commerce logistics often struggle with delivery reliability. This project builds a neural network classifier trained on shipment records to predict delivery timeliness — enabling businesses to proactively flag at-risk orders.
 
@@ -14,7 +14,7 @@ E-commerce logistics often struggle with delivery reliability. This project buil
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 **File:** `Train.csv`
 
@@ -34,7 +34,7 @@ E-commerce logistics often struggle with delivery reliability. This project buil
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 - **Language:** Python 3.x
 - **Data Processing:** Pandas, NumPy
@@ -44,7 +44,7 @@ E-commerce logistics often struggle with delivery reliability. This project buil
 
 ---
 
-## ⚙️ Preprocessing Pipeline
+##  Preprocessing Pipeline
 
 1. **Drop `ID`** column (non-informative identifier)
 2. **Split** features into categorical and numerical subsets
@@ -55,7 +55,7 @@ E-commerce logistics often struggle with delivery reliability. This project buil
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 ```
 Input (19,)
@@ -83,7 +83,7 @@ Dense(2, activation='softmax')   ← binary output
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Clone the repo and install dependencies
 
@@ -107,7 +107,7 @@ Execute all cells top-to-bottom.
 
 ---
 
-## 🔍 Single-Row Inference
+##  Single-Row Inference
 
 A `predict_on_single_row()` utility is included to test the model on a custom shipment record:
 
@@ -135,7 +135,7 @@ The function internally handles preprocessing (scaling + encoding) using the fit
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 e-commerce-shipping-prediction/
@@ -147,7 +147,7 @@ e-commerce-shipping-prediction/
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - The `scaler` and `ohe` objects must be fitted on training data before calling `predict_on_single_row()` — run all notebook cells in sequence.
 - Categorical input values must exactly match the training distribution (e.g. `'Flight'`, `'low'`, `'F'`) to avoid OHE shape mismatches.
